@@ -67,7 +67,7 @@ body {
     justify-items: center;
     align-items: center;
     width: 80%;
-    max-width: 300px;
+    max-width: 100%;
     margin-top: 20px;
     overflow: hidden;
     border-radius: 10px;
