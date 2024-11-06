@@ -1,0 +1,154 @@
+body {
+    font-family: "Satisfy", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-color: #282c34;
+    color: red;
+}
+
+.heart {
+    position: absolute;
+    top: -50px;
+    color: #FF69B4;
+    font-size: 24px;
+    opacity: 0.8;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+.carrossel_contagem {
+    align-items: center;
+    justify-items: center;
+}
+
+.declaracao {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.karol {
+    font-size: 60px;
+    font-weight: 570;
+}
+
+.h2_span {
+    font-weight: 100;
+}
+
+.span_declaracao {
+    color: #fff;
+}
+
+.svg_declaracao {
+    margin-bottom: -5px;
+}
+
+/*carrossel imagens nossa*/
+.carousel-container {
+    position: relative;
+    width: 80%;
+    max-width: 300px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* botões de navegação */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 100;
+    margin-bottom: 0.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    color: white;
+}
+
+.svg_icon {
+    margin-bottom: -19px;
+}
+
+.countdown {
+    font-size: 1.5em;
+    display: flow;
+    gap: 1em;
+    justify-content: center;
+}
+
+.time-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-unit span {
+    font-size: 1.2em;
+    margin-top: 0.3em;
+}
+
+.links {
+    text-align: center;
+}
+
+.link_musica {
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+}
