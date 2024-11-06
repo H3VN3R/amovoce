@@ -60,6 +60,8 @@ body {
 /*carrossel imagens nossa*/
 .carousel-container {
     position: relative;
+    justify-items: center;
+    align-items: center;
     width: 80%;
     max-width: 300px;
     margin-top: 20px;
